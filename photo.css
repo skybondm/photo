@@ -15,10 +15,12 @@ body {
     height: 90px;
     background-image: url(images/143945456632419a642697.53053640bg.jpg);
     background-position: center 0;
+    background-repeat: no-repeat;
 }
 header {
     padding: 0px 20px;
-    
+    margin: 0 auto;
+    max-width: 1480px;
 }
 .content {
     margin-left: auto;
@@ -186,4 +188,145 @@ header {
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 30px;
+}
+.videoPlayer {
+    margin: 0 auto;
+    width: 1400px;
+}
+.vid {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+.video {
+    color: #BDAE82;
+    margin-top: 100px;
+}
+.price {
+    color: white;
+    margin-top: 100px;
+    max-width: 1480px;
+}
+.variants {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.option {
+    border: 3px solid #BDAE82;
+    padding: 30px;
+    text-align: center;
+    width: 28%;
+}
+.option_price {
+    color: #BDAE82;
+    font-size: 24px;
+    line-height: 45px;
+    margin: 15px 0;
+}
+.option_name {
+    font-size: 28px;
+    line-height: 45px;
+}
+.name_skills h2 {
+    color: #BDAE82;
+}
+.option_desc {
+    line-height: 40px;
+    font-size: 18px;
+}
+.order_button {
+    background-color: #BDAE82;
+    color: black;
+    border: 1px solid #BDAE82;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.order_button:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+.contact_me {
+    color: #BDAE82;
+    background-image: url(images/143945456657292c10e1a4.70072612contacts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    margin-top: 150px;
+    padding-right: 100px;
+    padding-top: 100px;
+    width: 1480px;
+}
+.contact_me h1 {
+    font-size: 50px;
+}
+.contact_me_form {
+    width: 500px;
+    margin-left: auto;
+}
+.contact_me_input {
+    background-color: rgba(0, 0, 0, 0.461);
+    width: 100%;
+    border: 3px solid #BDAE82;
+    color: #BDAE82;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.contact_me_input::placeholder {
+    color: #BDAE82;
+}
+.contact_me_text {
+    background-color: rgba(0, 0, 0, 0.461);
+    border: 3px solid #BDAE82;
+    width: 100%;
+    color: #BDAE82;
+    padding: 20px 15px;
+    font-size: 20px;
+    resize: none;
+    margin-top: 40px;
+}
+.contact_me_text::placeholder {
+    color: #BDAE82;
+}
+.send_message {
+    background-color: #BDAE82;
+    text-align: center;
+    padding: 15px 40px;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+    border: 1px solid #BDAE82;
+    margin-top: 40px;
+}
+.send_message:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin: 50px auto;
+    width: 1480px;
+    align-items: center;
+    padding: 0 20px;
+}
+.icons img{
+    margin: 0 10px;
+}
+.footer_text {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.footer_text a {
+    color: white;
+    text-decoration: none;
 }
